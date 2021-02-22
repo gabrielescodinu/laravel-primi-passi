@@ -1,19 +1,7 @@
 @extends('layouts.app')
-    <body>
-        <div class="flex-center position-ref full-height">
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Welcome
-                </div>
+@section('content')
 
-                <div class="links">
-                    <a href="about">About</a>
-                    <a href="/">Home</a>
-                </div>
-            </div>
-        </div>
-    </body>
+<h1>Home</h1>
 
-    @include('footer')
-</html>
+@endsection

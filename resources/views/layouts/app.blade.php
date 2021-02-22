@@ -8,16 +8,13 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
         <style>
-            html, body, footer {
+            html, body {
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
-                margin: 0;
             }
 
             .full-height {
@@ -62,4 +59,17 @@
                 margin-bottom: 30px;
             }
         </style>
+
     </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand navbar-light bg-light">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="about">About</a>
+            </nav>
+        </header>
+        <main class="container">
+            @yield('content')
+        </main>
+    </body>
+</html>
