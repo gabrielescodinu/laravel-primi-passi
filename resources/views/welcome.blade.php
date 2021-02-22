@@ -1,4 +1,4 @@
-@include('head')
+@extends('layouts.app')
     <body>
         <div class="flex-center position-ref full-height">
 
